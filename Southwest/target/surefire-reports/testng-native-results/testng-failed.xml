@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="hometest.HomePageTest">
+        <methods>
+          <include name="southEnroll"/>
+          <include name="southProgram"/>
+          <include name="southManageDonatePts"/>
+          <include name="southPtsShopPgm"/>
+          <include name="startExtent"/>
+          <include name="southManageEmailSub"/>
+          <include name="southHotels"/>
+          <include name="southCar"/>
+          <include name="southManageTrPts"/>
+          <include name="generateReport"/>
+          <include name="southEnrollPgm"/>
+          <include name="southVacations"/>
+          <include name="southSPtsFlightsPgm"/>
+          <include name="southSBenefitsPgm"/>
+          <include name="southLogin"/>
+          <include name="southSpecFlights"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="southmanage"/>
+          <include name="cleanUp"/>
+          <include name="southSpecHotels"/>
+          <include name="southRaprewardsPgma"/>
+          <include name="southsearch"/>
+          <include name="extentSetup"/>
+          <include name="southSpecVacations"/>
+          <include name="southCreditcardPgm"/>
+          <include name="southFlights"/>
+          <include name="southManagePromotions"/>
+          <include name="southSpecCars"/>
+          <include name="southManageAccLg"/>
+          <include name="southErnPtsPgm"/>
+          <include name="southManageAcc"/>
+        </methods>
+      </class> <!-- hometest.HomePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

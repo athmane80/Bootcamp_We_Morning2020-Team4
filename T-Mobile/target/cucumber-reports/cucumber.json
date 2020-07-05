@@ -1,0 +1,911 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 44954000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:49:39.744Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3995098000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Test login button",
+        "description": "",
+        "id": "t-mobile-homepage;test-login-button",
+        "after": [
+          {
+            "result": {
+              "duration": 198335000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2746408000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click my account button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_my_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1322645000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click log in button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1739000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I sould see log in page",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_sould_see_log_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1318000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:49:48.123Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4589930000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Test Search for T-Mobile Deals",
+        "description": "",
+        "id": "t-mobile-homepage;test-search-for-t-mobile-deals",
+        "after": [
+          {
+            "result": {
+              "duration": 238322000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2805109000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click deals button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_deals_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3587000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see T-Mobile deals",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_should_see_T_Mobile_deals()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1223000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:49:55.768Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4376564000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Test search for T-Mobile coverage",
+        "description": "",
+        "id": "t-mobile-homepage;test-search-for-t-mobile-coverage",
+        "after": [
+          {
+            "result": {
+              "duration": 208876000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1196642000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click coverage button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_coverage_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2158000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see T-Mobile coverages",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_should_see_T_Mobile_coverages()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3472000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:50:01.565Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2857109000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Test Support button",
+        "description": "",
+        "id": "t-mobile-homepage;test-support-button",
+        "after": [
+          {
+            "result": {
+              "duration": 476120000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#\\/\\/\\*\\[\\@id\\\u003d\\\"digital\\-header\\-utility\\-1\\\"\\]\\/li\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Athmanes-MBP.lan1\u0027, ip: \u00272604:2000:1600:8040:0:0:0:229%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.3\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:55537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ffa1bcf2628cfed2d45d5276d639d2bc\n*** Element info: {Using\u003did, value\u003d//*[@id\u003d\"digital-header-utility-1\"]/li}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat common.WebAPI.clickOnElement(WebAPI.java:301)\n\tat step_definitions.SearchOnTMobileSteps_Definitions.i_click_support_button(SearchOnTMobileSteps_Definitions.java:78)\n\tat ✽.I click support button(file:///Users/athmanechebili/IdeaProjects/Bootcamp_We_Morning2020-Team4/T-Mobile/src/test/java/features/SearchOnTmobile.feature:29)\n",
+              "duration": 12099051000,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "I click support button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_support_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 676000,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I should see support page",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_should_see_support_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1719000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:50:17.016Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2993843000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Test devices button",
+        "description": "",
+        "id": "t-mobile-homepage;test-devices-button",
+        "after": [
+          {
+            "result": {
+              "duration": 193314000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2563147000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click devices button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_devices_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1228000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should see devices page",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_should_see_devices_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2564000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:50:22.777Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3663313000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Test benefits button",
+        "description": "",
+        "id": "t-mobile-homepage;test-benefits-button",
+        "after": [
+          {
+            "result": {
+              "duration": 455212000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#\\/\\/\\*\\[\\@id\\\u003d\\\"nav\\-link\\-contaniner\\-4\\\"\\]\\/li\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Athmanes-MBP.lan1\u0027, ip: \u00272604:2000:1600:8040:0:0:0:229%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.3\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:55891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: f79a64a49d56b567cda926b656795e93\n*** Element info: {Using\u003did, value\u003d//*[@id\u003d\"nav-link-contaniner-4\"]/li}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat common.WebAPI.clickOnElement(WebAPI.java:301)\n\tat step_definitions.SearchOnTMobileSteps_Definitions.i_click_benefits_button(SearchOnTMobileSteps_Definitions.java:98)\n\tat ✽.I click benefits button(file:///Users/athmanechebili/IdeaProjects/Bootcamp_We_Morning2020-Team4/T-Mobile/src/test/java/features/SearchOnTmobile.feature:41)\n",
+              "duration": 11260743000,
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "I click benefits button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_benefits_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 530000,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I should see benefits page",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_should_see_benefits_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1461000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:50:38.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2957159000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Test  compare button",
+        "description": "",
+        "id": "t-mobile-homepage;test--compare-button",
+        "after": [
+          {
+            "result": {
+              "duration": 472718000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#\\/\\/a\\[contains\\(text\\(\\)\\,\\\u0027Compare\\ all\\ plans\\\u0027\\)\\]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Athmanes-MBP.lan1\u0027, ip: \u00272604:2000:1600:8040:0:0:0:229%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.3\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:56105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: dbd8c5d603b50c0938002d0a03dccc15\n*** Element info: {Using\u003did, value\u003d//a[contains(text(),\u0027Compare all plans\u0027)]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat common.WebAPI.clickOnElement(WebAPI.java:301)\n\tat step_definitions.SearchOnTMobileSteps_Definitions.i_click_compare_button(SearchOnTMobileSteps_Definitions.java:108)\n\tat ✽.I click compare button(file:///Users/athmanechebili/IdeaProjects/Bootcamp_We_Morning2020-Team4/T-Mobile/src/test/java/features/SearchOnTmobile.feature:46)\n",
+              "duration": 20218039000,
+              "status": "failed"
+            },
+            "line": 46,
+            "name": "I click compare button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_compare_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 501000,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "I should see compare page",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_should_see_compare_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 717000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:51:01.833Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3993037000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Test Find store",
+        "description": "",
+        "id": "t-mobile-homepage;test-find-store",
+        "after": [
+          {
+            "result": {
+              "duration": 193626000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1425259000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click find a store button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_find_a_store_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1722474000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I enter Brooklyn in search field",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_enter_Brooklyn_in_search_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121909000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click search button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 597000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should see T-Mobile stores in Brooklyn",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_should_see_T_Mobile_stores_in_Brooklyn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 863000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:51:09.300Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3196350000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Test  Shop phones",
+        "description": "",
+        "id": "t-mobile-homepage;test--shop-phones",
+        "after": [
+          {
+            "result": {
+              "duration": 486639000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#\\/\\/a\\[contains\\(\\@class\\,\\\u0027btn\\-primary\\ btn\\-brand\\ decorated\\-link\\\u0027\\)\\]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Athmanes-MBP.lan1\u0027, ip: \u00272604:2000:1600:8040:0:0:0:229%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.3\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:56508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b779fea0abf4061edf2670a2eb176866\n*** Element info: {Using\u003did, value\u003d//a[contains(@class,\u0027btn-primary btn-brand decorated-link\u0027)]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat common.WebAPI.clickOnElement(WebAPI.java:301)\n\tat step_definitions.SearchOnTMobileSteps_Definitions.i_click_shop_button(SearchOnTMobileSteps_Definitions.java:136)\n\tat ✽.I click shop button(file:///Users/athmanechebili/IdeaProjects/Bootcamp_We_Morning2020-Team4/T-Mobile/src/test/java/features/SearchOnTmobile.feature:58)\n",
+              "duration": 11696269000,
+              "status": "failed"
+            },
+            "line": 58,
+            "name": "I click shop button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_shop_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 471000,
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "I should see shop page page",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_should_see_shop_page_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1008000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:51:24.690Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2915630000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Test  Statement",
+        "description": "",
+        "id": "t-mobile-homepage;test--statement",
+        "after": [
+          {
+            "result": {
+              "duration": 235021000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2813447000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click statement button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_statement_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 940000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I should see statement  page",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_should_see_statement_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "T-Mobile HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1301000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at T-Mobile HomePage",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_am_at_T_Mobile_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:51:30.660Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2763633000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Test Plans",
+        "description": "",
+        "id": "t-mobile-homepage;test-plans",
+        "after": [
+          {
+            "result": {
+              "duration": 205686000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2349983000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I click plans button",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_click_plans_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 696000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I should see plans page",
+            "match": {
+              "location": "step_definitions.SearchOnTMobileSteps_Definitions.i_should_see_plans_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "T-Mobile HomePage",
+    "description": "  As a costumer i am  at T-Mobile HomePage",
+    "id": "t-mobile-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SearchOnTmobile.feature",
+    "tags": []
+  }
+]

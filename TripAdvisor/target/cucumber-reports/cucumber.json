@@ -1,0 +1,1501 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 35771000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:15.208Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2799736000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Test Signin",
+        "description": "",
+        "id": "tripadvisor-homepage;test-signin",
+        "after": [
+          {
+            "result": {
+              "duration": 257593000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 164942000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Sign In button",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_Sign_In_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1894000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see ways to connect",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_ways_to_connect()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2007000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:18.568Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2419116000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Things to Do in NYC",
+        "description": "",
+        "id": "tripadvisor-homepage;things-to-do-in-nyc",
+        "after": [
+          {
+            "result": {
+              "duration": 327520000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 215064000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Things to Do button",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_Things_to_Do_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286105000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter New York City as  location",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_enter_New_York_City_as_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1239049000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click searchbutton",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_searchbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1231000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see things to do in NYC",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_things_to_do_in_NYC()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1752000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:23.066Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2140063000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Test hotel location",
+        "description": "",
+        "id": "tripadvisor-homepage;test-hotel-location",
+        "after": [
+          {
+            "result": {
+              "duration": 216243000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 172963000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click hotels field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_hotels_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 270308000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter Miami Florida as location",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_enter_Miami_Florida_as_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632189000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click hotels search button",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_hotels_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1487000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see hotels in Florida",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_hotels_in_Florida()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1444000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:26.508Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2069288000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Test vacation search",
+        "description": "",
+        "id": "tripadvisor-homepage;test-vacation-search",
+        "after": [
+          {
+            "result": {
+              "duration": 266606000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1125651000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click vacation field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_vacation_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156321000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click check in field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_check_in_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 808000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "i should see check in dates",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_check_in_dates()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1841000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:30.136Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2284316000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Test Restaurants in Paris",
+        "description": "",
+        "id": "tripadvisor-homepage;test-restaurants-in-paris",
+        "after": [
+          {
+            "result": {
+              "duration": 221076000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 196664000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click restaurants field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_restaurants_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155229000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter Paris in research field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_enter_Paris_in_research_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 850000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click search restaurant button",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_search_restaurant_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 615000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should see restaurants in Paris",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_restaurants_in_Paris()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2315000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:33.002Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2160775000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Test give Review page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-give-review-page",
+        "after": [
+          {
+            "result": {
+              "duration": 276922000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1060036000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click Review field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_Review_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1383000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I should see review page",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_review_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2897000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:36.510Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2149678000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Test Travel Forum page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-travel-forum-page",
+        "after": [
+          {
+            "result": {
+              "duration": 276784000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 172481000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click Travel Forums field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_Travel_Forums_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 482446000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter best places to visit in search field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_enter_best_places_to_visit_in_search_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97573000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I clear search field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_clear_search_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93269000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter cheap hotels in Miami",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_enter_cheap_hotels_in_Miami()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1186116000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click search forums button",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_search_forums_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1075000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should see cheap hotels in Miami",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_cheap_hotels_in_Miami()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1059000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:40.981Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2074273000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Test Car Rentals page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-car-rentals-page",
+        "after": [
+          {
+            "result": {
+              "duration": 225534000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 189932000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click more field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_more_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 601394000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click rental cars field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_rental_cars_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1290000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I should see Rental Cars page",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_Rental_Cars_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1397000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:44.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2263945000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Test Airlines page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-airlines-page",
+        "after": [
+          {
+            "result": {
+              "duration": 240081000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 164923000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I click more field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_more_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1172806000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click airlines field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_airlines_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 650000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should see airlines page",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_airlines_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 748000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:47.930Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2110183000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Test cruises page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-cruises-page",
+        "after": [
+          {
+            "result": {
+              "duration": 225184000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 175055000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I click more field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_more_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1141864000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I click cruises field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_cruises_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1290000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I should see cruises page",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_cruises_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8072000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:51.589Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1984364000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Test flights page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-flights-page",
+        "after": [
+          {
+            "result": {
+              "duration": 253345000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 166233000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I click more field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_more_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1224061000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click flights field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_flights_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 488000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I should flights page",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_flights_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 478000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:55.230Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2354918000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Test help center page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-help-center-page",
+        "after": [
+          {
+            "result": {
+              "duration": 200722000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 145342000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I click more field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_more_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88442000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click help center field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_help_center_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I should see help center page",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_help_center_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 926000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:00:58.028Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3179166000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "Test Insurance page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-insurance-page",
+        "after": [
+          {
+            "result": {
+              "duration": 217728000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141668000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I click more field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_more_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 954164000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I click insurance field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_insurance_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I should see insurance page",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_insurance_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 955000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:01:02.529Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2079453000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "Test Trips page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-trips-page",
+        "after": [
+          {
+            "result": {
+              "duration": 289470000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177452000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click more field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_more_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 936312000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I click trips field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_trips_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7829000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I should see trips page",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_trips_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 710000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:01:06.030Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2360088000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 81,
+        "name": "Test Traveler\u0027s choice page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-traveler-s-choice-page",
+        "after": [
+          {
+            "result": {
+              "duration": 237288000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 161586000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I click more field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_more_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1201597000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I click travelers choice field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_travelers_choice_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1085000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I should see Travelers choice page",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_Travelers_choice_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Advisor HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3662000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Advisor HomePage",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_am_at_Advisor_HomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T05:01:09.999Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2065531000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 86,
+        "name": "Test Packages page",
+        "description": "",
+        "id": "tripadvisor-homepage;test-packages-page",
+        "after": [
+          {
+            "result": {
+              "duration": 248116000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 149827000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I click more field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_more_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1190010000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I click packages field",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_click_packages_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 592000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I should see packages page",
+            "match": {
+              "location": "step_definitions.TripAdvisorSteps_Definitions.i_should_see_packages_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TripAdvisor HomePage",
+    "description": "  As a costumer I am at TripAdvisor HomePage",
+    "id": "tripadvisor-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TripAdvisor.feature",
+    "tags": []
+  }
+]

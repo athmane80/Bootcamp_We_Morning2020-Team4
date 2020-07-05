@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="116.333">
+    <testcase classname="T-Mobile HomePage" name="Test login button" time="8.369">
+        <system-out>
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click my account button..............................................passed
+And I click log in button...................................................passed
+Then I sould see log in page................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage" name="Test Search for T-Mobile Deals" time="7.642">
+        <system-out>
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click deals button...................................................passed
+Then I should see T-Mobile deals............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage" name="Test search for T-Mobile coverage" time="5.789">
+        <system-out>
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click coverage button................................................passed
+Then I should see T-Mobile coverages........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage" name="Test Support button" time="15.447">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#\/\/\*\[\@id\=\&quot;digital\-header\-utility\-1\&quot;\]\/li&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Athmanes-MBP.lan1', ip: '2604:2000:1600:8040:0:0:0:229%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:55537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ffa1bcf2628cfed2d45d5276d639d2bc&#10;*** Element info: {Using=id, value=//*[@id=&quot;digital-header-utility-1&quot;]/li}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click support button.................................................failed
+Then I should see support page..............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/\*\[\@id\=\"digital\-header\-utility\-1\"\]\/li"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Athmanes-MBP.lan1', ip: '2604:2000:1600:8040:0:0:0:229%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:55537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ffa1bcf2628cfed2d45d5276d639d2bc
+*** Element info: {Using=id, value=//*[@id="digital-header-utility-1"]/li}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnElement(WebAPI.java:301)
+	at step_definitions.SearchOnTMobileSteps_Definitions.i_click_support_button(SearchOnTMobileSteps_Definitions.java:78)
+	at ✽.I click support button(file:///Users/athmanechebili/IdeaProjects/Bootcamp_We_Morning2020-Team4/T-Mobile/src/test/java/features/SearchOnTmobile.feature:29)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage" name="Test devices button" time="5.756">
+        <system-out>
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click devices button.................................................passed
+Then I should see devices page..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage" name="Test benefits button" time="15.389">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#\/\/\*\[\@id\=\&quot;nav\-link\-contaniner\-4\&quot;\]\/li&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Athmanes-MBP.lan1', ip: '2604:2000:1600:8040:0:0:0:229%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:55891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f79a64a49d56b567cda926b656795e93&#10;*** Element info: {Using=id, value=//*[@id=&quot;nav-link-contaniner-4&quot;]/li}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click benefits button................................................failed
+Then I should see benefits page.............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/\*\[\@id\=\"nav\-link\-contaniner\-4\"\]\/li"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Athmanes-MBP.lan1', ip: '2604:2000:1600:8040:0:0:0:229%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:55891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f79a64a49d56b567cda926b656795e93
+*** Element info: {Using=id, value=//*[@id="nav-link-contaniner-4"]/li}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnElement(WebAPI.java:301)
+	at step_definitions.SearchOnTMobileSteps_Definitions.i_click_benefits_button(SearchOnTMobileSteps_Definitions.java:98)
+	at ✽.I click benefits button(file:///Users/athmanechebili/IdeaProjects/Bootcamp_We_Morning2020-Team4/T-Mobile/src/test/java/features/SearchOnTmobile.feature:41)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage" name="Test  compare button" time="23.655">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#\/\/a\[contains\(text\(\)\,\'Compare\ all\ plans\'\)\]&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Athmanes-MBP.lan1', ip: '2604:2000:1600:8040:0:0:0:229%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:56105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: dbd8c5d603b50c0938002d0a03dccc15&#10;*** Element info: {Using=id, value=//a[contains(text(),'Compare all plans')]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click compare button.................................................failed
+Then I should see compare page..............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/a\[contains\(text\(\)\,\'Compare\ all\ plans\'\)\]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Athmanes-MBP.lan1', ip: '2604:2000:1600:8040:0:0:0:229%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:56105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dbd8c5d603b50c0938002d0a03dccc15
+*** Element info: {Using=id, value=//a[contains(text(),'Compare all plans')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnElement(WebAPI.java:301)
+	at step_definitions.SearchOnTMobileSteps_Definitions.i_click_compare_button(SearchOnTMobileSteps_Definitions.java:108)
+	at ✽.I click compare button(file:///Users/athmanechebili/IdeaProjects/Bootcamp_We_Morning2020-Team4/T-Mobile/src/test/java/features/SearchOnTmobile.feature:46)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage" name="Test Find store" time="7.462">
+        <system-out>
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click find a store button............................................passed
+And I enter Brooklyn in search field........................................passed
+And I click search button...................................................passed
+Then I should see T-Mobile stores in Brooklyn...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage" name="Test  Shop phones" time="15.385">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#\/\/a\[contains\(\@class\,\'btn\-primary\ btn\-brand\ decorated\-link\'\)\]&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Athmanes-MBP.lan1', ip: '2604:2000:1600:8040:0:0:0:229%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:56508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: b779fea0abf4061edf2670a2eb176866&#10;*** Element info: {Using=id, value=//a[contains(@class,'btn-primary btn-brand decorated-link')]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click shop button....................................................failed
+Then I should see shop page page............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/a\[contains\(\@class\,\'btn\-primary\ btn\-brand\ decorated\-link\'\)\]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Athmanes-MBP.lan1', ip: '2604:2000:1600:8040:0:0:0:229%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/7q/3jq_sgn14qd...}, goog:chromeOptions: {debuggerAddress: localhost:56508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b779fea0abf4061edf2670a2eb176866
+*** Element info: {Using=id, value=//a[contains(@class,'btn-primary btn-brand decorated-link')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnElement(WebAPI.java:301)
+	at step_definitions.SearchOnTMobileSteps_Definitions.i_click_shop_button(SearchOnTMobileSteps_Definitions.java:136)
+	at ✽.I click shop button(file:///Users/athmanechebili/IdeaProjects/Bootcamp_We_Morning2020-Team4/T-Mobile/src/test/java/features/SearchOnTmobile.feature:58)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage" name="Test  Statement" time="5.968">
+        <system-out>
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click statement button...............................................passed
+Then I should see statement  page...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage" name="Test Plans" time="5.324">
+        <system-out>
+            <![CDATA[Given I am at T-Mobile HomePage.............................................passed
+When I click plans button...................................................passed
+Then I should see plans page................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

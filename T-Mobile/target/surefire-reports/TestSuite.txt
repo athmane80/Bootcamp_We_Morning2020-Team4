@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 62, Failures: 13, Errors: 0, Skipped: 49, Time elapsed: 117.544 s <<< FAILURE! - in TestSuite
+hometest.HomePageTest.extentSetup  Time elapsed: 0.49 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+

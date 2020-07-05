@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 65, Failures: 14, Errors: 0, Skipped: 51, Time elapsed: 105.571 s <<< FAILURE! - in TestSuite
+hometest.HomePageTest.setUp  Time elapsed: 0.532 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /Users/athmanechebili/IdeaProjects/Bootcamp_We_Morning2020-Team4/Lets_Kodeit/../Generic/BrowserDriver/windows/chromedriver.exe
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+

@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 80, Failures: 17, Errors: 0, Skipped: 63, Time elapsed: 60.04 s <<< FAILURE! - in TestSuite
+hometest.HomePageTest.setUp  Time elapsed: 0.515 s  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+hometest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
